@@ -1,17 +1,29 @@
-# Terraform
-.terraform/
-*.tfstate
-
-# Ansible
-*.retry
-
-# Docker
-*.log
-
-# Node/Python
+# Node
 node_modules/
-venv/
+npm-debug.log
+
+# Python
 __pycache__/
+*.pyc
+venv/
 
 # Env
 .env
+.env.*
+
+# Docker
+*.log
+docker/*.tar
+
+# Terraform (future safety)
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

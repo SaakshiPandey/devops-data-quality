@@ -1,0 +1,17 @@
+.git
+.gitignore
+node_modules
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+venv
+.env.*
+dist
+build
+*.log
+*.sqlite3
+coverage
+.idea
+.vscode
